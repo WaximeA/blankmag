@@ -1,0 +1,93 @@
+#######################
+### .gitignore file ###
+#######################
+
+# Magento project specific #
+############################
+
+# Magento global (never) #
+##########################
+/.htaccess.sample
+/dev/
+/downloader/
+/app/design/install/
+/get.php
+/index.php.sample
+/install.php
+/LICENSE*
+/mage
+/media/
+/php.ini.sample
+/pkginfo/
+/RELEASE_NOTES.txt
+/sitemap.xml
+/sitemap/
+/skin/install/
+/pear
+/pear/
+/var/
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Temporary files #
+###################
+*.swp
+*.swo
+*~
+
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Icon\r\r
+Thumbs.db
+
+# Development files #
+#####################
+.svn/
+.idea/
+*.iml
+*.ipr
+*.iws
+.modgit/
+.modman/
+/target/
+/work/
+.settings/
+.classpath
+.project
+.metadata
+.loadpath
+/nbproject/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/nbactions.xml
+/nb-configuration.xml
+/vendor
+
+.idea
